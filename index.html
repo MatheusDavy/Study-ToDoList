@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <ion-icon id="rotateIcon" name="refresh-outline"></ion-icon>
+    <ion-icon id="lying" name="phone-landscape"></ion-icon>
+    <div class="rotate1">Please</div>
+    <div class="rotate2">Rotate your phone</div>
+    <div class="rotate3">Only Desktop</div>
+
+
+    <main>
+        <div class="container">
+            <div class="perfil">
+                <ion-icon class="user" name="person-circle-outline"></ion-icon>
+                <div id="name">User</div>
+            </div>
+            <br>
+            <div class="pages">
+                <div>
+                    <ion-icon name="book-outline"></ion-icon><a href="">List</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-list">
+            <div>
+                <label for="">List</label>
+                <input type="text" name="list-text" placeholder="Write your new list">
+                <button onclick="newList()" class="add">Add</button>
+            </div>
+            <div class="content">
+                <ul id="list">
+
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="list.js"></script>
+</body>
+
+</html>
